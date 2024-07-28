@@ -1,0 +1,40 @@
+pipeline     // declarative pipeline //
+
+{
+
+agent any 
+stages
+
+{
+
+
+    stage ('SCM checkout')  //stages  Name 
+
+    {
+
+        step {echo 'Code dowloading'}
+    }
+{
+
+stages ('code build')
+
+step{echo 'code building Is ther happaning'}
+
+
+stages ('code deploy')
+
+step{ echo 'code is deploying roight now'}
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+}
