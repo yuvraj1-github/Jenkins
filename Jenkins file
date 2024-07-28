@@ -1,0 +1,19 @@
+pipeline     // declarative pipeline //
+
+{
+stages
+
+{
+
+
+    stages ('Print a massage')  //stages  Name 
+
+    {
+
+        steps {echo 'Hello'}
+    }
+
+
+
+
+}
