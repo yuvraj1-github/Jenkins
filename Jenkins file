@@ -8,7 +8,7 @@ stages
 {
 
 
-    stages ('Print a massage')  //stages  Name 
+    stage ('Print a massage')  //stages  Name 
 
     {
 
@@ -18,4 +18,5 @@ stages
 
 
 
+}
 }
