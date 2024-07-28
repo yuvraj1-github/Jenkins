@@ -8,7 +8,7 @@ stages
 {
 
 
-    stages ('SCM checkout')  //stages  Name 
+    stage ('SCM checkout')  //stages  Name 
 
     {
 
@@ -16,12 +16,12 @@ stages
     }
 {
 
-stages ('code build')
+stage ('code build')
 
 steps {echo 'code building Is ther happaning'}
 
 
-stages ('code deploy')
+stage ('code deploy')
 
 steps { echo 'code is deploying roight now'}
 
