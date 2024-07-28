@@ -8,7 +8,7 @@ stages
 {
 
 
-    stage ('SCM checkout')  //stages  Name 
+    stages ('SCM checkout')  //stages  Name 
 
     {
 
